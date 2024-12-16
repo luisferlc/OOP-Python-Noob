@@ -1,0 +1,16 @@
+###### Introducción, conceptos claves:
+
+# OOP es un paradigma de programación, así como "imperativo", "funcional". Un paradigma de programación es una manera
+# de escribir código, para solucionar una problemática.
+
+## Ventajas:
+# Modularity: la capacidad de crear clases, que son "blueprints", es decir, un plano en el cual se podran crear objetos.
+## - La ventaja de estos blueprints es que son een su mayoría independientes de lo demás, y si quieres realizar un cambio ahí,
+##        no va afectar al programa en general. Como un lego, que son elementos independientes pero si los juntas creas algo mayor.
+## - Cada blueprint tiene un proposito distinto.
+
+# Reusability:
+## - Las clases y objetos se pueden reutilizar a tu deseo.
+
+# Extensibility:
+## - Las clases y objtos se pueden modificar y adaptar a tus nuevas necesidades.

@@ -1,0 +1,8 @@
+# Una clase es un blueprint para la creación de objetos.
+# En una clase se define el estado y comportamiento de los objetos que se van a crear.
+# - Cuando defines una clase, tienes que capitalizar las letras (Pascal Case):
+#             -- EquipoRojo
+#             -- NegocioPizza
+#             -- BioLifeDataExtractor
+#             -- etc...
+# 
