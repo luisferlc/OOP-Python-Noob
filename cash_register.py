@@ -34,16 +34,20 @@ class CashRegister:
     def calculate_subtotal(self):
         subtotal = 0.0
         for i in self.product_list.keys():
-            print(i, self.product_list[i]["price"] * self.product_list[i]["pieces"])
+            #print(i, self.product_list[i]["price"] * self.product_list[i]["pieces"])
             subtotal += self.product_list[i]["price"] * self.product_list[i]["pieces"]
-        print("El subtotal de la orden es:",subtotal)
         return subtotal
+
+    def print_subtotal(self):
+        print("El subtotal de la orden es:",self.calculate_subtotal())
 
     def add_taxes(self):
         subtotal = self.calculate_subtotal()
         total_final = round(subtotal*.05 + subtotal,2)
-        print(total_final)
         return total_final
+
+    def print_total(self):
+        print("Total de la orden ya con impuestos:",self.add_taxes())
 
 
 obj1 = CashRegister("Juanchito")
@@ -59,6 +63,7 @@ obj1.add_products("Leche 1LT")
 obj1.update_price("Leche 1LT", 34.23)
 obj1.print_products()
 obj1.calculate_subtotal()
+obj1.print_subtotal()
 obj1.add_taxes()
-
+obj1.print_total()
 
