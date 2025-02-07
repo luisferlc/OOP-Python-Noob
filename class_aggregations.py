@@ -18,8 +18,8 @@ class Employee():
         self.carro.show_info()
 
 
-mi_carrito = Vehicle("Rojo",2019)
-luison = Employee("Luis",31, mi_carrito)
+mi_carrito = Vehicle("Rojo",2019) #creas una instancia de Vehicle
+luison = Employee("Luis",31, mi_carrito) #la utilizar como parametro para otra instancia de otra clase
 
 luison.carro.show_info()
 print(luison.carro.color)
